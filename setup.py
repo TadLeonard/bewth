@@ -2,10 +2,7 @@ import os
 from setuptools import setup
 
 
-__version__ = "v0.0.1-alpha"
-
-
-version = tfatool._version.__version__
+version = "v0.0.1-alpha"
 url = "https://github.com/TadLeonard/bewth"
 download = "{}/archive/{}.tar.gz".format(url, version)
 
@@ -31,7 +28,7 @@ classifiers = [
 ]
 
 setup(name="bewth",
-      version=tfatool._version.__version__,
+      version=version,
       scripts=["bewth"],
       licence="MIT",
       description=description,
